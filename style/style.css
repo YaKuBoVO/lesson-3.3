@@ -1,0 +1,92 @@
+:root {
+   --premare-color: #fff;
+   --bg-color: #E5E5E5;
+   --text-color:  #22343D;
+}
+
+.dark {
+    --premare-color: #1F2E35FF;
+   --bg-color: #E5E5E5;
+   --text-color:  #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #E5E5E5;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+h1, h2, h3, h4 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: #22343D;
+}
+ul li {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   color: #22343D;
+}
+.navbar ul li a.activ {
+   color: #fff;
+   border-bottom: 1px solid #000;
+}
+
+
+
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+/* header */
+#header {
+   padding: 20px 0;
+}
+.navbar-list-logo {
+   column-gap: 10px;
+}
+.navbar-list {
+   column-gap: 28px;
+}
+.navbar ul li a {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 28px;
+   color: #22343D;
+}
+.navbar ul li button {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+   padding: 2px 22px;
+   border: 1px solid #BCD0E5;
+   border-radius: 4px;
+   
+}
+.navbar ul li button.color {
+   background: #02897A;
+   color: #fff;
+}
+.navbar ul li button:hover {
+    background: linear-gradient(to bottom, red, yellow, orange);
+}
