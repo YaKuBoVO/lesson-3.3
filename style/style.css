@@ -1,28 +1,27 @@
 :root {
-   --premare-color: #fff;
-   --bg-color: #E5E5E5;
+   --premare-color: #22343D;
+   --bg-color: #F0F0F0FF;
    --text-color:  #22343D;
+   --font-family: 'Poppins', sans-serif;
 }
-
 .dark {
-    --premare-color: #1F2E35FF;
-   --bg-color: #E5E5E5;
+   --premare-color: #fff;
+   --bg-color: #1F2E35FF;
    --text-color:  #fff;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-
 
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   overflow-x: hidden;
 }
 
 body {
-   background-color: #E5E5E5;
-   font-family: 'Poppins', sans-serif;
+   background-color:var(--bg-color);
+   color:var(--text-color)
+   font-family:var(--font-family);
+   transition: all .5s ease;
 }
 
 
@@ -41,16 +40,20 @@ a {
    color: #22343D;
 }
 .navbar ul li a.activ {
-   color: #fff;
-   border-bottom: 1px solid #000;
+   color: tomato;
+   border-bottom: 2px solid tomato;
 }
-
-
-
 
 .flex {
    display: flex;
    align-items: center;
+}
+
+.btn {
+   border: none;
+   padding: 15px 40px;
+   background: #02897A;
+   border-radius: 6px;
 }
 
 /* header */
@@ -69,9 +72,20 @@ a {
    font-weight: 600;
    font-size: 16px;
    line-height: 28px;
-   color: #22343D;
+   color:var(--text-color);
+   transition: all .4s ease;
+}
+.navbar ul li a:hover {
+   color: tomato;
+}
+.navbar ul li button.click-button {
+   background-color: none;
+   outline: none;
+   padding: 0;
+   border: none;
 }
 .navbar ul li button {
+   outline: none;
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 600;
@@ -87,6 +101,281 @@ a {
    background: #02897A;
    color: #fff;
 }
-.navbar ul li button:hover {
-    background: linear-gradient(to bottom, red, yellow, orange);
+.icon-menu i {
+   display: none;
+}
+
+
+
+/* SITE-HERO */
+#site-hero {
+   padding-top: 100px;
+}
+.hero-info h1 {
+   width: 380px;
+   margin-bottom: 15px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   color:var(--text-color);
+}
+.hero-info p {
+   width: 440px;
+    margin-bottom: 40px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   color:var(--text-color);
+}
+.hero-content {
+   display: flex;
+   align-items: center;
+}
+.hero-content i {
+   font-size: 25px;
+   color: #02897A;
+}
+.button-btn {
+   margin-right: 15px;
+   border: none;
+   padding: 15px 40px;
+   background: #02897A;
+   border-radius: 6px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #fff;
+}
+.hero-content a.border-bot {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration-line: underline;
+   color: #02897A;
+}
+.hero-image img {
+   width: 600px;
+   height: 555px;
+}
+
+
+/* SPORTS */
+#sports {
+   padding: 150px 0;
+}
+#sports .heading-title { 
+   text-align: center;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 48px;
+   margin-bottom: 70px;
+   color:var(--text-color);
+}
+#sports  .sports img {
+   margin-bottom: 30px;
+}
+#sports  .sports h4 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 33px;
+   color:var(--text-color);
+   margin-bottom: 15px;
+}
+#sports  .sports p {
+   width: 240px;
+   margin-bottom: 70px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+#sports a.botton {
+   width: 190px;
+   display: block;
+   margin: 0 auto;
+   border: none;
+   padding: 15px 40px;
+   background: #02897A;
+   border-radius: 6px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+
+/* management */
+#managament {
+
+}
+#managament h4 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+}
+#managament h2 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 48px;
+   color:var(--text-color);
+}
+#managament .makers-content h3 {
+   margin-bottom: 12px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+#managament .makers-content p {
+   width: 450px;
+   /*margin-bottom: 30px;*/
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+#managament .makers-content .managa-title {
+   padding-top: 40px;
+}
+
+/* support */
+#support {
+   padding: 150px 0 0 0;
+}
+
+#support .support-content h4 {
+   margin-bottom: 8px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+}
+#support .support-content h2 {
+   margin-bottom: 23px;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 48px;
+   color:var(--text-color);
+}
+#support .support-content p {
+   width: 380px;
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+#support .orange-img {
+   display: flex;
+   column-gap: 20px;
+}
+#support .orange-img img {
+   width: 35px;
+   height: 35px;
+}
+#support .orange-img p {
+   width: 320px;
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+/* ALBOM */
+#albom {
+   padding: 150px 0;
+}
+#albom .albom-info h4 {
+   margin-bottom: 10px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+}
+#albom .albom-info h2 {
+   margin-bottom: 23px;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 48px;
+   color:var(--text-color);
+}
+#albom .albom-info p {
+   width: 400px;
+   margin-bottom: 30px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+#albom .makers h3 {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+#albom .makers p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+
+@media only screen and (max-width: 992px) {
+   #header {
+      padding: 0;
+   }
+   .navbar-list.flex {
+      display: block;
+      width: fit-content;
+      z-index: 150;
+      opacity: 0;
+   }
+   .navbar-list.active {
+      width: 40%;
+      height: 85vh;
+      opacity: 1;
+      z-index: 150;
+   }
+   .navbar .navbar-list .navbar-item {
+      padding: 20px 0 0;
+      text-align: center;
+      margin: 12px 35px 0 0;
+   }
+   .navbar-list {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      height: 100vh;
+      background: #ccc;
+      transition: all .5s ease;
+      overflow: hidden;
+      z-index: 150;
+   }
+   .icon-menu i {
+   display: block;
+   outline: none;
+   font-size: 35px;
+   color: #173A56FF;
+}
 }
