@@ -1,6 +1,6 @@
 :root {
    --premare-color: #22343D;
-   --bg-color: #F0F0F0FF;
+   --bg-color: #fff;
    --text-color:  #22343D;
    --font-family: 'Poppins', sans-serif;
 }
@@ -339,6 +339,242 @@ a {
    line-height: 26px;
    color:var(--text-color);
 }
+
+
+
+/* wokers */
+#wokers {
+   padding: 80px 0;
+   background-image: url('../imgs/bg.svg');
+   background-repeat: no-repeat;
+   background-position: top center;
+   
+}
+
+
+.process-info h2 {
+   margin-bottom: 16px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 48px;
+   text-align: center;
+   color:var(--text-color);
+}
+.process-info p {
+   margin-bottom: 15px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color:var(--text-color);
+}
+
+
+.wokers-img.wokers-top  {
+   padding: 60px 0;
+   margin-bottom: 30px;
+}
+
+
+.wokers-img span {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #2F281E;
+   padding: 10px 50px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+   border-radius: 26.5px;
+}
+
+
+
+#wokers a {
+   margin: 0 auto;
+}
+
+#wokers a.botton {
+   width: 225px;
+   padding: 18px 0;
+   background: #02897A;
+   color:var(--text-color);
+   border-radius: 4px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+}
+
+
+/* building */
+#building {
+   padding: 120px 0;
+}
+#building h2 {
+   margin-bottom: 10px;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 51px;
+   color:var(--text-color);
+}
+#building p {
+   margin-bottom: 32px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   color:var(--text-color);
+}
+
+.strategies-content {
+   background:var(--bg-color);
+   border-radius: 10px;
+}
+.strategies-content h3, p {
+   margin-left: 20px;
+}
+
+.strategies-content img {
+   border-radius: 10px 10px 0 0;
+   margin-bottom: 24px;
+}
+.strategies-content p span {
+   font-size: 18px;
+   font-weight: bold;
+   color:var(--text-color);
+}
+#building .strategies-content p {
+ font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #22343D;
+   color:var(--text-color);
+}
+.strategies-content h3 {
+   width: 300px;
+   margin-bottom: 60px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 35px;
+   color:var(--text-color);
+}
+.strategies-content h3.grenn {
+   color:var(--text-color);
+   color: #02897A;
+}
+
+
+#building .round > * {
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   background-color: #ccc;
+   border-radius: 50%;
+}
+#building .round .round-color {
+    background-color: #02897A;
+}
+
+
+/* RATES */
+#rates {
+   text-align: center;
+   padding: 120px 0;
+}
+#rates h2 {
+   margin-bottom: 10px;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 51px;
+   color:var(--text-color);
+}
+#rates p {
+   margin-bottom: 50px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+}
+
+/* CLIENTS */
+#clients {
+   padding: 80px 0;
+   text-align: center;
+}
+#clients h1 {
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 57px;
+   letter-spacing: 0.2px;
+   color:var(--text-color);
+}
+#clients p {
+   margin-bottom: 50px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 28px;
+   letter-spacing: 0.2px;
+   color:var(--text-color);
+}
+
+
+/* ANALIZ */
+#analiz {
+   padding: 100px 0;
+}
+
+#analiz .square {
+   width: 968px;
+   height: 350px;
+   margin: 0 auto;
+   background: #02897A;
+   border-radius: 32px;
+}
+
+#analiz .analiz-content {
+    padding: 50px 0 0 51px;
+}
+
+#analiz .analiz-content h2 {
+   width: 500px;
+   margin-bottom: 50px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 151.4%;
+   color: #FFFFFF;
+}
+
+#analiz .analiz-content button {
+   padding: 10px 40px;
+   border:  none;
+   background: #FFFFFF;
+   border-radius: 8px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+   color: #02897A;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 992px) {
