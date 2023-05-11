@@ -1,0 +1,257 @@
+:root {
+   --premare-color: #F5F5F5FF;
+   --bg-color: #fff;
+   --text-color:  #22343D;
+   --font-family: 'Poppins', sans-serif;
+}
+.dark {
+   --premare-color: #1F2E35FF;
+   --bg-color: #1F2E35FF;
+   --text-color:  #fff;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   background-color:var(--bg-color);
+   color:var(--text-color)
+   font-family:var(--font-family);
+   transition: all .5s ease;
+}
+
+
+
+
+h1, h2, h3, h4 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: #22343D;
+}
+ul li {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   color: #22343D;
+}
+.navbar ul li a.active {
+   color: tomato;
+   border-bottom: 2px solid tomato;
+}
+
+
+/* CUSTOMERS.HTML */
+
+/* header */
+#header {
+   padding: 20px 40px 0 0;
+}
+.navbar-list-logo {
+   column-gap: 10px;
+}
+.navbar-list {
+   column-gap: 28px;
+}
+.flex {
+   display: flex;
+   align-items: center;
+}
+.navbar ul li a {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 28px;
+   color:var(--text-color);
+   transition: all .4s ease;
+}
+.navbar ul li a:hover {
+   color: tomato;
+}
+.navbar ul li button.click-button {
+   background-color: none;
+   outline: none;
+   padding: 0;
+   border: none;
+}
+.navbar ul li button {
+   outline: none;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color:var(--text-color);
+   padding: 2px 22px;
+   border: 1px solid #BCD0E5;
+   border-radius: 4px;
+   
+}
+.navbar ul li button.color {
+   background: #02897A;
+   color: #fff;
+}
+.icon-menu i {
+   display: none;
+}
+
+   /* PARTNERS-LOGO */
+#partners-logo {
+   padding: 80px 0 140px 0;
+}
+#partners-logo .image-logo {
+   padding: 50px 0 0 65px;
+}
+#partners-logo h1 {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   color:var(--text-color);
+}
+
+
+
+   /* SITE-RESULT */
+#site-result {
+   width: 100%;
+   height: 500px;
+   background-color:var(--premare-color);
+   padding: 50px 0;
+}
+#site-result h2 {
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 51px;
+   color:var(--text-color);
+   margin-bottom: 60px;
+}
+#site-result .result-content {
+   background-color:var(--premare-color);
+   padding: 20px 30px;
+   border: 1px solid #ccc;
+}
+#site-result .result-content img {
+   margin-bottom: 30px;
+}
+#site-result .result-content h4 {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   letter-spacing: 0.1px;
+   color:var(--text-color);
+   margin-bottom: 16px;
+}
+#site-result .result-content p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 27px;
+   color:var(--text-color);
+}
+
+
+   /* HOW-WORK */
+#how-work {
+   padding: 100px 0;
+}
+#how-work h2 {
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 51px;
+   color:var(--text-color);
+   margin-bottom: 70px;
+}
+#how-work .how-work-content h4 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color:var(--text-color);
+   margin-bottom: 25px;
+}
+#how-work .how-work-content h3 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color:var(--text-color);
+   margin-bottom: 30px;
+}
+#how-work .how-work-content p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color:var(--text-color);
+}
+#how-work button.how-button {
+   display: block;
+   margin: 0 auto;
+   margin-top: 80px;
+   border: none;
+   padding: 11px 18px;
+   background: #02897A;
+   border-radius: 8px;
+   color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/*  THE-END CUSTOMERS.HTML */
+
+
+@media only screen and (max-width: 992px) {
+   .container {
+      width: 98%;
+   }
+   #header {
+      padding: 35px 60px 0 20px;
+   }
+   .navbar-list.active {
+      width: 30%;
+      top: 55px;
+      right: 0;
+      height: 50vh;
+      opacity: 1;
+      z-index: 150;
+   }
+   .navbar .navbar-list .navbar-item {
+      padding: 25px 0 0 0;
+      text-align: center;
+      margin: 12px 35px 0 0;
+      z-index: 150;
+   }
+   nav ul.navbar-list {
+      display: block;
+      text-align: center;
+      transition: 0.8s;
+      z-index: 150;
+      opacity: 0;
+   }
+   .navbar-list {
+      position: absolute;
+      top: 55px;
+      right: 0;
+      width: 30%;
+      height: 50vh;
+      background: #ccc;
+      transition: .5s ease;
+      overflow: hidden;
+      z-index: 150;
+   }
+   .icon-menu i {
+      display: block;
+      outline: none;
+      font-size: 35px;
+      color:var(--text-color);
+}
+
+}
