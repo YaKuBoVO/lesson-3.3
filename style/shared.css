@@ -431,15 +431,15 @@ a {
       padding: 35px 60px 0 20px;
    }
    .navbar-list.active {
-      width: 30%;
+      width: 35%;
       top: 55px;
       right: 0;
-      height: 50vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 25px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -455,8 +455,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 30%;
-      height: 50vh;
+      width: 35%;
+      height: 75vh;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -536,15 +536,15 @@ a {
       padding: 30px 40px;
    }
    .navbar-list.active {
-      width: 40%;
+      width: 38%;
       top: 55px;
       right: 0;
-      height: 50vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 25px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -560,8 +560,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 40%;
-      height: 50vh;
+      width: 38%;
+      height: 75vh;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -640,15 +640,15 @@ a {
       padding: 30px 30px;
    }
    .navbar-list.active {
-      width: 40%;
+      width: 45%;
       top: 55px;
       right: 0;
-      height: 55vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 30px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -664,8 +664,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 40%;
-      height: 55vh;
+      width: 45%;
+      height: 75vh;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -746,16 +746,16 @@ a {
    #header {
       padding: 30px 30px 0 10px;
    }
-      .navbar-list.active {
+   .navbar-list.active {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 55vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 30px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -772,7 +772,7 @@ a {
       top: 55px;
       right: 0;
       width: 45%;
-      height: 55vh;
+      height: 75vh;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -851,15 +851,15 @@ a {
       padding: 30px 10px 0 10px;
    }
    .navbar-list.active {
-      width: 55%;
+      width: 45%;
       top: 55px;
       right: 0;
-      height: 55vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 30px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -875,8 +875,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 55%;
-      height: 55vh;
+      width: 45%;
+      height: 75vh;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -887,7 +887,7 @@ a {
       outline: none;
       font-size: 35px;
       color:var(--text-color);
-   }
+}
 
 
    /* SITE-HERO */
@@ -999,6 +999,44 @@ a {
    #header {
       padding: 30px 30px 0 10px;
    }
+   .navbar-list.active {
+      width: 45%;
+      top: 55px;
+      right: 0;
+      height: 75vh;
+      opacity: 1;
+      z-index: 150;
+   }
+   .navbar .navbar-list .navbar-item {
+      padding: 18px 0 0 0;
+      text-align: center;
+      margin: 12px 35px 0 0;
+      z-index: 150;
+   }
+   nav ul.navbar-list {
+      display: block;
+      text-align: center;
+      transition: 0.8s;
+      z-index: 150;
+      opacity: 0;
+   }
+   .navbar-list {
+      position: absolute;
+      top: 55px;
+      right: 0;
+      width: 45%;
+      height: 75vh;
+      background: #ccc;
+      transition: .5s ease;
+      overflow: hidden;
+      z-index: 150;
+   }
+   .icon-menu i {
+      display: block;
+      outline: none;
+      font-size: 35px;
+      color:var(--text-color);
+}
 
 
    /* SITE-HERO */
@@ -1110,6 +1148,44 @@ a {
    #header {
       padding: 30px 20px 0 10px;
    }
+   .navbar-list.active {
+      width: 45%;
+      top: 55px;
+      right: 0;
+      height: 75vh;
+      opacity: 1;
+      z-index: 150;
+   }
+   .navbar .navbar-list .navbar-item {
+      padding: 18px 0 0 0;
+      text-align: center;
+      margin: 12px 35px 0 0;
+      z-index: 150;
+   }
+   nav ul.navbar-list {
+      display: block;
+      text-align: center;
+      transition: 0.8s;
+      z-index: 150;
+      opacity: 0;
+   }
+   .navbar-list {
+      position: absolute;
+      top: 55px;
+      right: 0;
+      width: 45%;
+      height: 75vh;
+      background: #ccc;
+      transition: .5s ease;
+      overflow: hidden;
+      z-index: 150;
+   }
+   .icon-menu i {
+      display: block;
+      outline: none;
+      font-size: 35px;
+      color:var(--text-color);
+}
 
    /* SITE-HERO */
 #pricing-site-hero h1, p {
