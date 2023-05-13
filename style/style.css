@@ -749,7 +749,7 @@ a {
       width: 30%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -940,7 +940,7 @@ a {
       width: 35%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1156,7 +1156,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1439,7 +1439,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1698,7 +1698,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1912,7 +1912,7 @@ a {
    }
 
    #footer .footer-link {
-      margin-left: 110px;
+      margin-left: 100px;
    }
    #footer .site-info h4 {
       font-style: normal;
@@ -1963,7 +1963,7 @@ a {
 
 
    /* MEDIA-410px */
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 413px) {
    .container {
       width: 98%;
       margin: 0 auto;
@@ -1977,7 +1977,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }

@@ -388,7 +388,7 @@ a {
       width: 32%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -499,7 +499,7 @@ a {
       width: 38%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -626,7 +626,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -696,7 +696,7 @@ a {
       width: 50%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -786,7 +786,7 @@ a {
       width: 50%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -871,7 +871,7 @@ a {
       width: 50%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -944,16 +944,16 @@ a {
 
 
    /* MEDIA-410*/
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 413px) {
    .container {
       width: 98%;
    }
 
    .navbar-list.active {
-      width: 50%;
+      width: 55%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1019,7 +1019,7 @@ a {
       padding: 30px 0 10px 0;
    }
    #footer .footer-link {
-      margin-left: 85px;
+      margin-left: 80px;
    }
    #footer .last-content button {
       margin-bottom: 30px;

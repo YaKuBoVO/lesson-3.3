@@ -406,7 +406,7 @@ a {
       width: 30%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -515,7 +515,7 @@ a {
       width: 35%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -622,10 +622,10 @@ a {
       padding: 35px 45px 0 20px;
    }
    .navbar-list.active {
-      width: 45%;
+      width: 40%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -667,8 +667,8 @@ a {
       margin-bottom: 30px;
    }
    #resources-hero .site-hero-content img.img-info {
-      width: 600px;
-      height: 550px;
+      width: 550px;
+      height: 500px;
    }
 
    /* LATES-STORIES */
@@ -734,10 +734,10 @@ a {
       padding: 35px 0;
    }
    .navbar-list.active {
-      width: 45%;
+      width: 40%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -858,7 +858,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -983,7 +983,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
@@ -1096,7 +1096,7 @@ a {
 
 
       /* MEDIA-411px */
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 413px) {
    .container {
       width: 98%;
    }
@@ -1107,7 +1107,7 @@ a {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 75vh;
+      height: 45vh;
       opacity: 1;
       z-index: 150;
    }
