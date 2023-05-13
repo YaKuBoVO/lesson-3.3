@@ -431,7 +431,7 @@ a {
       padding: 35px 60px 0 20px;
    }
    .navbar-list.active {
-      width: 35%;
+      width: 32%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -455,8 +455,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 35%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -560,8 +560,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 38%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -664,8 +664,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -771,8 +771,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -875,8 +875,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1024,8 +1024,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1173,8 +1173,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;

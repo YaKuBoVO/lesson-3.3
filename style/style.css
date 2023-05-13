@@ -749,12 +749,12 @@ a {
       width: 30%;
       top: 55px;
       right: 0;
-      height: 80vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 25px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -770,8 +770,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 30%;
-      height: 80vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -940,12 +940,12 @@ a {
       width: 35%;
       top: 55px;
       right: 0;
-      height: 80vh;
+      height: 75vh;
       opacity: 1;
       z-index: 150;
    }
    .navbar .navbar-list .navbar-item {
-      padding: 20px 0 0 0;
+      padding: 18px 0 0 0;
       text-align: center;
       margin: 12px 35px 0 0;
       z-index: 150;
@@ -961,8 +961,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 35%;
-      height: 80vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1153,7 +1153,7 @@ a {
       padding: 25px 28px 0 10px;
    }
    .navbar-list.active {
-      width: 35%;
+      width: 45%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -1177,8 +1177,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 35%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1460,8 +1460,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1719,8 +1719,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -1998,8 +1998,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;

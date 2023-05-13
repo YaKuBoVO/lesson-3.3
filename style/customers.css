@@ -385,7 +385,7 @@ a {
       padding: 35px 60px 0 20px;
    }
    .navbar-list.active {
-      width: 35%;
+      width: 32%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -409,8 +409,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 35%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -496,7 +496,7 @@ a {
       padding: 35px 60px 0 20px;
    }
    .navbar-list.active {
-      width: 45%;
+      width: 38%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -520,8 +520,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -647,8 +647,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -717,8 +717,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 50%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -783,7 +783,7 @@ a {
       padding: 20px 25px 0 0;
    }
    .navbar-list.active {
-      width: 45%;
+      width: 50%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -807,8 +807,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -868,7 +868,7 @@ a {
    }
 
    .navbar-list.active {
-      width: 45%;
+      width: 50%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -892,8 +892,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
@@ -950,7 +950,7 @@ a {
    }
 
    .navbar-list.active {
-      width: 45%;
+      width: 50%;
       top: 55px;
       right: 0;
       height: 75vh;
@@ -974,8 +974,8 @@ a {
       position: absolute;
       top: 55px;
       right: 0;
-      width: 45%;
-      height: 75vh;
+      width: 0;
+      height: 0;
       background: #ccc;
       transition: .5s ease;
       overflow: hidden;
