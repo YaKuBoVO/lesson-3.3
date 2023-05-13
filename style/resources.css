@@ -1101,13 +1101,13 @@ a {
       width: 98%;
    }
    #header {
-      padding: 35px 0;
+      padding: 35px 15px 0 0;
    }
    .navbar-list.active {
       width: 45%;
       top: 55px;
       right: 0;
-      height: 45vh;
+      height: 52vh;
       opacity: 1;
       z-index: 150;
    }
